@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ExpandableListView;
 import android.widget.ListView;
 
 import com.example.paisesdomundo.R;
@@ -14,9 +15,10 @@ import com.example.paisesdomundo.adapter.RegionAdapter;
 import java.util.Arrays;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
 
     ListView lvRegionsOfWorld;
+
 
     //Exibir menu na MainActivity
     @Override
@@ -59,4 +61,5 @@ public class MainActivity extends AppCompatActivity {
 
         return lvRegionsOfWorld;
     }
+
 }

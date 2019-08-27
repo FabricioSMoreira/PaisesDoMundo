@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".view.MainActivity">
 
+
     <ListView
         android:id="@+id/lv_regions_of_word"
         android:layout_width="match_parent"
