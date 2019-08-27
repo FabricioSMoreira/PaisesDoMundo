@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     ListView lvRegionsOfWorld;
 
-    //ACESSANDO METODO DO MENU QUANDO AS OPCOES SAO CRIADAS
+    //Exibir menu na MainActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main_menu, menu);

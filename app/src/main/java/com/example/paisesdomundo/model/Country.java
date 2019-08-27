@@ -2,7 +2,7 @@ package com.example.paisesdomundo.model;
 
 import java.io.Serializable;
 
-public class Pais implements Serializable {
+public class Country implements Serializable {
 
 
     private int id;
@@ -87,7 +87,7 @@ public class Pais implements Serializable {
     //toString----------------------------->
     @Override
     public String toString() {
-        return "Pais{" +
+        return "Country{" +
                 "id=" + id +
                 ", mNome='" + mNome + '\'' +
                 ", mCapital='" + mCapital + '\'' +
